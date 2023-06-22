@@ -1,0 +1,287 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+  body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(./assets/21.jpg);
+
+    background-size:cover;
+    
+  }
+
+  header{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+  }
+
+  header>ul>li{
+    list-style-type: none;
+  display: inline-block;
+   margin-inline: 15px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    padding: 6px;
+  }
+  header>ul>li:hover{
+    background-color:white;
+    color: black;
+    border-radius: 20px;
+    padding: 6px;
+  }
+
+  header > h4{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 6px;
+  }
+
+
+  /*Title Styling begins here..*/
+
+  .title{
+    color: #fff;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+  }
+
+  .title>h2{
+    font-size: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .title>p{
+    font-size: 30px;
+    margin-top: 8px;
+    font-weight: 300;
+  }
+
+
+  /*Content 1 Styling begins here*/
+  .cnt1{
+    color: #fff;
+    border-radius: 20px;
+    width:500px ;
+    height: 210px;
+    position: relative;
+    right: 30px;
+    margin-top: 50px;
+    background-image: url(https://images.unsplash.com/photo-1462899006636-339e08d1844e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGJ1aWxkaW5nfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    transition: transform 0.3s; 
+  }
+
+  .cnt1:hover{
+    transform:scale(0.9);
+    cursor: pointer;
+  }
+
+  .cnt1 p{
+    font-size: 30px;
+    position: relative;
+    left: 25px;
+  }
+  .cnt1>.search{
+    background-color: #fc8600;
+    width: 100px;
+    height: 20px;
+    padding: 7px;
+    border-radius: 18px;
+    position: relative;
+    left: 355px;
+    top: 8px;
+  }
+  .cnt1>.search:hover{
+    background-color: #fff;
+    color: #000;
+    width: 100px;
+    height: 20px;
+    padding: 7px;
+    border-radius: 18px;
+    position: relative;
+    left: 355px;
+    top: 8px;
+    cursor: pointer;
+  }
+
+    /*Content 2 Styling begins here*/
+    .cnt2{
+        background-color: rgb(255, 153, 0);
+        border-radius: 20px;
+        width:250px ;
+        height: 150px;
+        position: relative;
+        right: 29px;
+        transition: transform 0.3s; 
+      }
+      .cnt2:hover{
+        transform:scale(0.9);
+        cursor: pointer;
+      }
+
+      .cnt2>h3{
+        color: #fff;
+        font-weight: bolder;
+        font-size: 50px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 15px;
+        left: 15px;
+      }
+
+      .cnt2>.p1{
+        color: #fff;
+        position: relative;
+        left: 19px;
+        bottom: 5px;
+      }
+       
+      .hash{
+        color: #fff;
+        font-size: small;
+        position: relative;
+        left: 19px;
+        top: 10px;
+      }
+    /*Content 3 Styling begins here*/
+    .cnt3{
+      background-color: rgb(93, 199, 199);
+        border-radius: 20px;
+        width:250px ;
+        height: 150px;
+        position: relative;
+        bottom:160px;
+        left:230px ;
+        color: #fff2f2d2;
+        font-weight: bolder;
+        font-size: 30px;
+        transition: transform 0.3s; 
+      } 
+
+      .cnt3:hover{
+        transform:scale(0.9);
+        cursor: pointer;
+      }
+      
+      .cnt3>p{
+        position: relative;
+        left: 10px;
+        bottom:10px;
+      }
+
+    /*Content 4 Styling begins here*/
+    .cnt4{
+        background-color: rgb(250, 250, 247);
+        border-radius: 20px;
+        width:500px ;
+        height: 50px;
+        position: relative;
+        bottom: 155px;
+        right: 20px;
+        display: flex;
+        justify-content: space-between;
+        transition: transform 0.3s; 
+      } 
+      .cnt4:hover{
+        transform:scale(0.9);
+        cursor: pointer;
+      }
+      
+      .cnt4 h4{
+        font-weight: bolder;
+        font-size: 30px;
+        position: relative;
+        bottom: 28px;
+        left: 20px;
+      }
+
+      .cnt4 p{
+        font-weight:400;
+        font-size: 20px;
+        position: relative;
+        right: 30px;
+        bottom: 4px;
+      }
+      
+/*Containing all the divs inside it*/
+  #container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }    
+
+
+/*grid postioning for all boxes*/
+  .all-contents{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  gap: 10px;
+  }
+
+
+
+  .cnt5{
+    color: #fff;
+    border-radius: 20px;
+    width:500px ;
+    height: 110px;
+    position: relative;
+    top: px;
+    left: 814px;
+    bottom: 190px;
+    margin-top: 50px;
+    background-image: url(https://images.unsplash.com/photo-1516149893016-813d9a01d5d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjU1fHxwZW9wbGV8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-position: 0px;
+    transition: transform 0.3s; 
+  }
+
+  .cnt5:hover{
+    transform:scale(0.9);
+    cursor: pointer;
+  }
+
+
+  /*Styling the SeachBar section*/
+  .search-bar {
+    display: flex;
+    
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 450px;
+    height: 20px;
+    font-family:'Josefin Sans', sans-serif ;
+    font-size: 15px;
+    border-radius: 20px 0px 0px 20px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    margin-left: 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+    height: 40px;
+    font-family:'Josefin Sans', sans-serif ;
+    font-size: 15px;
+
+  }
+
+  button:hover{
+    cursor: pointer;
+    background-color: #fc8600;
+  }
